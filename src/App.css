@@ -10,6 +10,7 @@ body {
     background-repeat: repeat;
     min-height: 100vh;
     font-family: 'Quicksand', sans-serif;
+    background-color: #fff;
 }
 
 .wrapper {
@@ -19,7 +20,7 @@ body {
 .wrapper_mobil {
     max-width: 600px;
     min-height: 80vh;
-    margin: 30px auto 0;
+    margin: 30px auto;
     background-color: rgb(244, 243, 243);
     box-shadow: 1px 5px 5px 3px rgb(173, 167, 167);
     display: flex;
@@ -118,7 +119,6 @@ li {
     -webkit-text-decoration-line: line-through;
     text-decoration-color: #d1484c;
     -webkit-text-decoration-color:#d1484c;
-
     background-color: #e2eced;
 }
 
@@ -141,7 +141,7 @@ li {
 
 @media all and (max-width: 460px) {
     .wrapper {
-        margin: 20px 10px 0;
+        margin: 20px 10px;
     }
 
     .heading {
