@@ -1,11 +1,11 @@
-* {
+*, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: url(/src/bg.jpeg);
+    background-image: url(/src/bg.jpeg);
     background-size: contain;
     background-repeat: repeat;
     min-height: 100vh;
@@ -21,20 +21,32 @@ body {
     max-width: 600px;
     min-height: 80vh;
     margin: 30px auto;
-    background-color: rgb(244, 243, 243);
     box-shadow: 1px 5px 5px 3px rgb(173, 167, 167);
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 30px;
     border: 5px  solid #b85d5d;
+    position: relative; 
 }
 
+.wrapper_mobil::before {
+    content: '';
+    opacity: 0.8;
+    position: absolute;
+    background-color: rgb(227, 222, 222);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 30px;
+}
 .heading {
     font-size: 30px;
     margin: 40px 10px;
     color: #285a60;
     text-shadow: 2px 2px 2px rgb(112, 87, 87);
+    position: relative;
 }
 
 .container {
@@ -42,6 +54,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 form {
@@ -65,7 +78,7 @@ form {
 }
 
 input::placeholder {
-    color: #a2a2a2;
+    color: #767575;
 }
 
 .btn_container {
@@ -141,7 +154,7 @@ li {
 
 @media all and (max-width: 460px) {
     .wrapper {
-        margin: 20px 10px;
+        margin: 20px 20px;
     }
 
     .heading {

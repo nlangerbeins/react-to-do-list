@@ -1,6 +1,5 @@
 import { Component } from "react";
 import icon from './completed-task.png';
-import iconDone from './done-task.png'
 
 export class ToDoList extends Component {
     state = {
