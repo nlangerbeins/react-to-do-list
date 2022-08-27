@@ -19,7 +19,7 @@ body {
 
 .wrapper_mobil {
     max-width: 600px;
-    min-height: 80vh;
+    min-height: 90vh;
     margin: 30px auto;
     box-shadow: 1px 5px 5px 3px rgb(173, 167, 167);
     display: flex;
@@ -88,13 +88,14 @@ input::placeholder {
 }
 
 .btn {
-    width: 150px;
+    width: 160px;
     padding: 15px;
     border-radius: 10px;
     border: none;
     box-shadow: 5px 5px 5px rgb(207, 203, 203);
     color: #fff;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .add {
@@ -137,7 +138,7 @@ li {
 
 @media all and (max-width: 768px) {
     .wrapper {
-        margin: 20px 20px 0;
+        margin: 20px 20px;
     }
 
     .wrapper_mobil {
