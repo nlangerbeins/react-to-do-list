@@ -23,11 +23,6 @@ export class ToDoList extends Component {
         this.setState({dailyList: listArray, userInput: ''})
     }
 
-    // changeColor(input) {
-    //     const li = input.target;
-    //     li.classList.toggle ('change_color');
-    // }
-
     doneItem(input, index) {
         let listArray = this.state.dailyList;
         let readyList = this.state.deleteList;
