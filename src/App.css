@@ -19,8 +19,8 @@ body {
 
 .wrapper_mobil {
     max-width: 600px;
-    min-height: 90vh;
-    margin: 30px auto;
+    min-height: 100vh;
+    margin: 30px auto 0;
     box-shadow: 1px 5px 5px 3px rgb(173, 167, 167);
     display: flex;
     flex-direction: column;
@@ -151,7 +151,7 @@ li {
     }
 
     .wrapper_mobil {
-        margin: 0 auto 0;
+        margin: 0 auto;
     }
 }
 
