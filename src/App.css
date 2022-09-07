@@ -84,12 +84,13 @@ input::placeholder {
 .btn_container {
     display: flex;
     justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .btn {
     width: 160px;
-    padding: 15px;
+    padding: 12px;
     border-radius: 10px;
     border: none;
     box-shadow: 5px 5px 5px rgb(207, 203, 203);
@@ -103,12 +104,18 @@ input::placeholder {
     margin: 40px 0 20px;
 }
 
-.delete {
-    background-color: #d1484c;
-    margin: 20px 0;
+.delete_item {
+    background-color: #5aba66;
+    margin: 40px 0 20px;
+    width: 180px;
 }
 
-.add:hover, .delete:hover {
+.delete_all {
+    background-color: #d1484c;
+    margin: 0 0 10px;
+}
+
+.add:hover, .delete_item:hover, .delete_all:hover {
     transform: scale(1.1, 1.1);
     transition: all 1s ease-in-out;
     cursor: pointer;
@@ -133,7 +140,9 @@ li {
     -webkit-text-decoration-line: line-through;
     text-decoration-color: #d1484c;
     -webkit-text-decoration-color:#d1484c;
-    background-color: #e2eced;
+    text-decoration-thickness: 3px;
+    -webkit-text-decoration-thickness: 3px;
+    background-color: #e4d7d8;
 }
 
 @media all and (max-width: 768px) {
@@ -148,9 +157,29 @@ li {
 
 @media all and (max-width: 580px) {
     .heading {
-        font-size: 24px;
+        font-size: 22px;
         margin: 30px 10px 40px;
     }
+
+    .input_container input {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px;
+        width: 140px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    .delete_item {
+        width: 150px;
+    }
+
+
 }
 
 @media all and (max-width: 460px) {
