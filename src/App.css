@@ -20,7 +20,7 @@ body {
 .wrapper_mobil {
     max-width: 600px;
     min-height: 80vh;
-    margin: 0px auto 0;
+    margin: 0px auto;
     box-shadow: 1px 5px 5px 3px rgb(173, 167, 167);
     display: flex;
     flex-direction: column;
@@ -147,11 +147,7 @@ li {
 
 @media all and (max-width: 768px) {
     .wrapper {
-        margin: 20px 20px 0;
-    }
-
-    .wrapper_mobil {
-        margin: 0 auto;
+        margin: 20px 20px;
     }
 }
 
@@ -179,10 +175,6 @@ li {
 }
 
 @media all and (max-width: 460px) {
-    .wrapper {
-        margin: 20px 20px 0;
-    }
-
     .heading {
         font-size: 20px;
         text-align: center;
