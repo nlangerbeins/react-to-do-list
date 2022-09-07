@@ -161,10 +161,6 @@ li {
         margin: 30px 10px 40px;
     }
 
-    .input_container input {
-        font-size: 14px;
-    }
-
     .btn {
         font-size: 14px;
         padding: 10px;
@@ -184,7 +180,7 @@ li {
 
 @media all and (max-width: 460px) {
     .wrapper {
-        margin: 20px 20px;
+        margin: 20px 20px 0;
     }
 
     .heading {
