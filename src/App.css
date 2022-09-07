@@ -9,17 +9,18 @@ body {
     background-size: contain;
     background-repeat: repeat;
     height: 100vh;
+    padding: 30px 20px;
     font-family: 'Quicksand', sans-serif;
     background-color: #fff;
 }
 
-.wrapper {
+/* .wrapper {
     margin: 30px 20px;
-}
+} */
 
 .wrapper_mobil {
     max-width: 600px;
-    min-height: 80vh;
+    min-height: 90vh;
     margin: 0px auto;
     box-shadow: 1px 5px 5px 3px rgb(173, 167, 167);
     display: flex;
@@ -146,9 +147,9 @@ li {
 }
 
 @media all and (max-width: 768px) {
-    .wrapper {
+    /* .wrapper {
         margin: 20px 20px;
-    }
+    } */
 }
 
 @media all and (max-width: 580px) {
