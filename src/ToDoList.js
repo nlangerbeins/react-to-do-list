@@ -28,9 +28,7 @@ export class ToDoList extends Component {
         let readyList = this.state.deleteList;
         listArray.splice(index, 1);
         readyList.push(input);
-        this.setState({dailyList: listArray})
-        this.setState({deleteList: readyList})
-       
+        this.setState({dailyList: listArray, deleteList: readyList})
     }
 
     returnItem(input, index) {
@@ -38,8 +36,7 @@ export class ToDoList extends Component {
         let readyList = this.state.deleteList;
         listArray.push(input);
         readyList.splice(index, 1)
-        this.setState({dailyList: listArray})
-        this.setState({deleteList: readyList})
+        this.setState({dailyList: listArray, deleteList: readyList})
     }
 
     deleteItem() {
