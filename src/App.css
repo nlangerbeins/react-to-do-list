@@ -170,8 +170,6 @@ li {
     .delete_item {
         width: 150px;
     }
-
-
 }
 
 @media all and (max-width: 460px) {
